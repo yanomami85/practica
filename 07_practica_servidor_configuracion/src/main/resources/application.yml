@@ -6,5 +6,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/yanomami85/07_practica_config_serv
-          #default-label: master
+          uri: https://github.com/yanomami85/config_servicios
+          default-label: main
