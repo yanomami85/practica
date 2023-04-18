@@ -9,9 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.http.client.support.BasicAuthenticationInterceptor;
 import org.springframework.web.client.RestTemplate;
 
-@EntityScan(basePackages = "com.curso.model")
-@EnableJpaRepositories(basePackages = "com.curso.repository")
-@SpringBootApplication(scanBasePackages = {"com.curso.controller", "com.curso.service"})
+@SpringBootApplication
 public class Application {
 
 	public static void main(String[] args) {
