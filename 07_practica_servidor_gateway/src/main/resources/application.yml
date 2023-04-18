@@ -34,11 +34,12 @@ spring:
           - RewritePath=/sreservas/*, /
 server:
   port: 9000
+      
 eureka:
   client:
     register-with-eureka: false
     service-url:
-      defaultZone: http://172.20.2.68:8761/eureka
+      defaultZone: http://localhost:8761/eureka
 
 
 
